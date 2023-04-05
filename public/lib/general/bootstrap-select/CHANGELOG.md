@@ -1,3 +1,142 @@
+# v1.13.18 (2020-06-26)
+### Bug Fixes
+- [#1342]: Bootstrap select doesn't send field data on form submit (set form attribute on select element to fix)
+- [#2402]: In Internet Explorer, with liveSearchPlaceholder enabled, can't select option while searchBox is focused. Also, selected option doesn't get scrolled to when opening menu
+- [#2464]: title attribute does not work in 1.13.17 (Safari)
+- [#2469]: Shift-Tab key not working in 1.13.17
+- [#2474]: With multiple selects, cannot select options with keyboard after using mouse to select options
+- [#2483]: Dropdown with unselectable index 0 will not scroll to top on arrow_down with last index selected
+- [#2491]: remove placeholder/title option when destroying selectpicker
+
+[#1342]: https://github.com/snapappointments/bootstrap-select/issues/1342
+[#2402]: https://github.com/snapappointments/bootstrap-select/issues/2402
+[#2464]: https://github.com/snapappointments/bootstrap-select/issues/2464
+[#2469]: https://github.com/snapappointments/bootstrap-select/issues/2469
+[#2474]: https://github.com/snapappointments/bootstrap-select/issues/2474
+[#2483]: https://github.com/snapappointments/bootstrap-select/issues/2483
+[#2491]: https://github.com/snapappointments/bootstrap-select/issues/2491
+
+-------------------
+
+# v1.13.17 (2020-05-07)
+### Bug Fixes
+- [#478]: tab key skips selectpicker inputs on Mac (Safari)
+- [#1023]: if title/placeholder enabled, select value changes when pressing back in browser
+- [#1828]: selectpicker('mobile') not working on iOS
+- [#2448]: Incorrect dropdown style when Bootstrap 4 version is not auto detected since 1.13.13
+
+[#478]: https://github.com/snapappointments/bootstrap-select/issues/478
+[#1023]: https://github.com/snapappointments/bootstrap-select/issues/1023
+[#1828]: https://github.com/snapappointments/bootstrap-select/issues/1828
+[#2448]: https://github.com/snapappointments/bootstrap-select/issues/2448
+
+-------------------
+
+# v1.13.16 (2020-04-24)
+### Bug Fixes
+- [#2380]: Specifying a Title and OptGroups creates a redundant divider
+- [#2381]: Tick/check mark rendering in Firefox
+- [#2391]: setStyle fails if newElement.parentNode is a document fragment
+- [#2393]: liHeight does not consider custom option content when computing li height
+- [#2442]: Using a class in optgroup results in an error on refresh in chrome
+- [#2445]: Problem with refresh and selected item
+- [#2446]: Bootstrap select property dataApiKeydownHandler error
+
+[#2380]: https://github.com/snapappointments/bootstrap-select/issues/2380
+[#2381]: https://github.com/snapappointments/bootstrap-select/issues/2381
+[#2391]: https://github.com/snapappointments/bootstrap-select/issues/2391
+[#2393]: https://github.com/snapappointments/bootstrap-select/issues/2393
+[#2442]: https://github.com/snapappointments/bootstrap-select/issues/2442
+[#2445]: https://github.com/snapappointments/bootstrap-select/issues/2445
+[#2446]: https://github.com/snapappointments/bootstrap-select/issues/2446
+
+-------------------
+
+# v1.13.15 (2020-04-20)
+### Bug Fixes
+- [#2430]: hasOwnProperty error with jQuery 3.5.0
+- [#2439]: error setting bootstrapKeydown if Bootstrap not yet loaded
+
+[#2430]: https://github.com/snapappointments/bootstrap-select/issues/2430
+[#2439]: https://github.com/snapappointments/bootstrap-select/issues/2439
+
+-------------------
+
+# v1.13.14 (2020-04-17)
+### Bug Fixes
+- [#2436]: TypeError: Cannot read property 'content' of undefined
+- [#2437]: If a select has the title attribute set (and is not a multiple select), selecting an option doesn't update the value in the button
+
+### Translations
+- [#2195]: Improve CZ translations
+- [#2274]: Improve JP translations
+- [#2196]: Add Serbian translations
+- [#2340]: Add Thai translations
+
+[#2436]: https://github.com/snapappointments/bootstrap-select/issues/2436
+[#2437]: https://github.com/snapappointments/bootstrap-select/issues/2437
+
+[#2195]: https://github.com/snapappointments/bootstrap-select/pull/2195
+[#2274]: https://github.com/snapappointments/bootstrap-select/pull/2274
+[#2196]: https://github.com/snapappointments/bootstrap-select/pull/2196
+[#2340]: https://github.com/snapappointments/bootstrap-select/pull/2340
+
+-------------------
+
+# v1.13.13 (2020-04-16)
+### Bug Fixes
+- [#2339]: data-size="false" not working
+- [#2337]: calling deselectAll/selectAll immediately after page load throws error
+- [#2320]: Dropup becomes a dropdown upon search
+- [#2308]: Keyboard control over Bootstrap Dropdown components stops working
+- [#2272]: Class bs-placeholder is no longer set on "default" values in 1.13.10
+- [#2352]: "Deselect All" doesn't consistently work with virtual scroll
+
+[#2339]: https://github.com/snapappointments/bootstrap-select/issues/2339
+[#2337]: https://github.com/snapappointments/bootstrap-select/issues/2337
+[#2320]: https://github.com/snapappointments/bootstrap-select/issues/2320
+[#2308]: https://github.com/snapappointments/bootstrap-select/issues/2308
+[#2272]: https://github.com/snapappointments/bootstrap-select/issues/2272
+[#2352]: https://github.com/snapappointments/bootstrap-select/issues/2352
+
+-------------------
+
+# v1.13.12 (2019-10-10)
+### Bug Fixes
+- [#2176]: allow was-validated class to work on select elements without selectpicker class
+- [#2321]: CTRL + F5 not working while dropdown is open
+- [#2308]: Keyboard control over Bootstrap Dropdown components stops working
+- [#2275]: Bug: Event duplication on refresh
+- [#2273]: "precompiled bootstrap" link is broken in README
+
+### Improvements
+- [#2243]: change liveSearch input type from "text" to "search"
+
+[#2176]: https://github.com/snapappointments/bootstrap-select/pull/2176
+[#2243]: https://github.com/snapappointments/bootstrap-select/pull/2243
+[#2321]: https://github.com/snapappointments/bootstrap-select/issues/2321
+[#2308]: https://github.com/snapappointments/bootstrap-select/issues/2308
+[#2275]: https://github.com/snapappointments/bootstrap-select/issues/2275
+[#2273]: https://github.com/snapappointments/bootstrap-select/issues/2273
+
+-------------------
+
+# v1.13.11 (2019-09-19)
+### Bug Fixes
+- [#2263]: Selecting non-existent option throws error in v1.13.10
+- [#2266]: Desired width of dropdown menu breaks after resizing window
+- [#2285]: bootstrap-select throws javascript error with jquery slim
+- [#2289]: Multiple ticks in optgroup with data-max-options defined as "1"
+- [#2326]: In IE11, options aren't visible when moving to bottom via "up" arrow key if select has an optgroup
+
+[#2263]: https://github.com/snapappointments/bootstrap-select/issues/2263
+[#2266]: https://github.com/snapappointments/bootstrap-select/issues/2266
+[#2285]: https://github.com/snapappointments/bootstrap-select/issues/2285
+[#2289]: https://github.com/snapappointments/bootstrap-select/issues/2289
+[#2326]: https://github.com/snapappointments/bootstrap-select/issues/2326
+
+-------------------
+
 # v1.13.10 (2019-04-19)
 ### Bug Fixes
 - [#1219]: Keyboard navigation not working when searching and virtualScroll is false
